@@ -7,11 +7,11 @@ spec:
   goTemplate: true
   goTemplateOptions: ["missingkey=error"]
   generators:
-    - git:
-      repoURL: https://github.com/FireBall1725/homelab-config.git
-      revision: HEAD
-      files:
-        - path: "apps/*/app-config.json"
+  - git:
+    repoURL: https://github.com/FireBall1725/homelab-config.git
+    revision: HEAD
+    files:
+    - path: "apps/*/app-config.json"
   template:
     metadata:
       name: '{{ index .path.segments 1 }}'
