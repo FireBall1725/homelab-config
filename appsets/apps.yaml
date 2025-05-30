@@ -1,0 +1,33 @@
+# https://argo-cd.readthedocs.io/en/stable/user-guide/application-set/
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: homelab-apps
+spec:
+  goTemplate: true
+  goTemplateOptions: ["missingkey=error"]
+  generators:
+    - git:
+      repoURL: git@github.com:FireBall1725/homelab-config.git
+      revision: HEAD
+      files:
+        - path: "apps/*/app-config.json"
+  template:
+    metadata:
+      name: '{{ index .path.segments 1 }}'
+    spec:
+      projects: homelab-gitops
+      source:
+        repoURL: git@github.com:FireBall1725/homelab-applications.git
+        targetRevision: '{{ .targetRevision }}'
+        path: '{{ index .path.segments 1 }}'
+      destination:
+        server: https://kubernetes.default.svc
+        namespace: '{{ .namespace }}'
+      syncPolicy:
+        automated:
+          prune: true
+          selfHeal: true
+        syncOptions:
+          - CreateNamespace={{ or .createNamespace true }}
+          - Replace={{ or .replace false }}

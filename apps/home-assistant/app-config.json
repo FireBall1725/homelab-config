@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-home-assistant",
+    "createNamespace": true,
+    "replace": true
+}
