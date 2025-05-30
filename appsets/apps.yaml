@@ -10,7 +10,7 @@ spec:
   - git:
       repoURL: https://github.com/FireBall1725/homelab-config.git
       revision: HEAD
-      directories:
+      files:
       - path: "apps/*/app-config.json"
   template:
     metadata:
