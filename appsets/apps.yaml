@@ -8,7 +8,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
     - git:
-      repoURL: git@github.com:FireBall1725/homelab-config.git
+      repoURL: https://github.com/FireBall1725/homelab-config.git
       revision: HEAD
       files:
         - path: "apps/*/app-config.json"
@@ -18,7 +18,7 @@ spec:
     spec:
       projects: homelab-gitops
       source:
-        repoURL: git@github.com:FireBall1725/homelab-applications.git
+        repoURL: https://github.com/FireBall1725/homelab-applications.git
         targetRevision: '{{ .targetRevision }}'
         path: '{{ index .path.segments 1 }}'
       destination:
