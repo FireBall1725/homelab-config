@@ -16,7 +16,7 @@ spec:
     metadata:
       name: '{{ index .path.segments 1 }}'
     spec:
-      projects: homelab-gitops
+      project: homelab-gitops
       source:
         repoURL: https://github.com/FireBall1725/homelab-applications.git
         targetRevision: '{{ .targetRevision }}'
