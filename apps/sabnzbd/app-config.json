@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-sabnzbd",
+    "createNamespace": true,
+    "replace": true
+}
