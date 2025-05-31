@@ -1,6 +1,6 @@
 {
     "targetRevision": "HEAD",
-    "namespace": "app-sabnzbd",
+    "namespace": "app-media",
     "createNamespace": true,
     "replace": true
 }
