@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-zigbee2mqtt",
+    "createNamespace": true,
+    "replace": false
+}
