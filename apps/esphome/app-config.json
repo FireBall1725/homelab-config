@@ -2,5 +2,5 @@
     "targetRevision": "HEAD",
     "namespace": "app-esphome",
     "createNamespace": true,
-    "replace": true
+    "replace": false
 }
