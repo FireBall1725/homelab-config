@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-mosquitto",
+    "createNamespace": true,
+    "replace": false
+}
