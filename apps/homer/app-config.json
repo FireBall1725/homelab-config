@@ -1,6 +1,6 @@
 {
     "targetRevision": "HEAD",
-    "namespace": "app-homepage",
+    "namespace": "app-homer",
     "createNamespace": true,
     "replace": false
 }
