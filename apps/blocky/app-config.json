@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-blocky",
+    "createNamespace": true,
+    "replace": false
+}
