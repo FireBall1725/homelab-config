@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-node-red",
+    "createNamespace": true,
+    "replace": false
+}
