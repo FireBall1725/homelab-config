@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-music-assistant",
+    "createNamespace": true,
+    "replace": false
+}
