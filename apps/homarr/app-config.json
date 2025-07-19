@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-homarr",
+    "createNamespace": true,
+    "replace": false
+}
