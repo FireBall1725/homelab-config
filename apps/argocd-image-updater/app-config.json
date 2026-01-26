@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "core-argocd",
+    "createNamespace": false,
+    "replace": false
+}
