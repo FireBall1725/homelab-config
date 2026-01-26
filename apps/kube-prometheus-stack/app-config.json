@@ -1,6 +1,11 @@
 {
     "targetRevision": "HEAD",
-    "namespace": "monitoring",
+    "namespace": "app-monitoring",
     "createNamespace": true,
-    "replace": false
+    "replace": false,
+    "namespaceLabels": {
+        "pod-security.kubernetes.io/enforce": "privileged",
+        "pod-security.kubernetes.io/audit": "privileged",
+        "pod-security.kubernetes.io/warn": "privileged"
+    }
 }
