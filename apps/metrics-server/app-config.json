@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "kube-system",
+    "createNamespace": false,
+    "replace": false
+}
