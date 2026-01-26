@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-unpoller",
+    "createNamespace": true,
+    "replace": false
+}
