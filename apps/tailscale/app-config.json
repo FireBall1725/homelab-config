@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-tailscale",
+    "createNamespace": true,
+    "replace": false
+}
