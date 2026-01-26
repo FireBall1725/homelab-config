@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-kometa",
+    "createNamespace": true,
+    "replace": false
+}
