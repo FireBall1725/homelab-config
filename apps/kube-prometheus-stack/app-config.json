@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "monitoring",
+    "createNamespace": true,
+    "replace": false
+}
