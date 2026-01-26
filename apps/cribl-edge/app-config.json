@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-cribl-edge",
+    "createNamespace": true,
+    "replace": false
+}
