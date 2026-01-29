@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "cert-manager",
+    "createNamespace": true,
+    "replace": false
+}
