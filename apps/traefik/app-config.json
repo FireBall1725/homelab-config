@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "core-traefik-ingress",
+    "createNamespace": false,
+    "replace": false
+}
