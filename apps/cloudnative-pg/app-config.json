@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "core-database",
+    "createNamespace": true,
+    "replace": false
+}
