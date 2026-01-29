@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-bookstack",
+    "createNamespace": true,
+    "replace": false
+}
