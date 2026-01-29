@@ -1,6 +1,6 @@
 {
     "targetRevision": "HEAD",
-    "namespace": "app-bookstack",
+    "namespace": "app-wikijs",
     "createNamespace": true,
     "replace": false
 }
