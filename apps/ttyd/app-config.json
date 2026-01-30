@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-ttyd",
+    "createNamespace": true,
+    "replace": false
+}
