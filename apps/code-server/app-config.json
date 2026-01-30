@@ -1,6 +1,0 @@
-{
-    "targetRevision": "HEAD",
-    "namespace": "app-code-server",
-    "createNamespace": true,
-    "replace": false
-}
