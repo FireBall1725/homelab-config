@@ -1,6 +1,0 @@
-{
-    "targetRevision": "HEAD",
-    "namespace": "app-ntfy",
-    "createNamespace": true,
-    "replace": false
-}
