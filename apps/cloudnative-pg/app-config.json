@@ -1,6 +1,6 @@
 {
     "targetRevision": "HEAD",
-    "namespace": "core-database",
+    "namespace": "app-cloudnative-pg",
     "createNamespace": true,
     "replace": false
 }
