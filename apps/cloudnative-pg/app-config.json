@@ -2,5 +2,6 @@
     "targetRevision": "HEAD",
     "namespace": "app-cloudnative-pg",
     "createNamespace": true,
-    "replace": false
+    "replace": false,
+    "serverSideApply": true
 }

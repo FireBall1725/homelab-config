@@ -31,3 +31,4 @@ spec:
         syncOptions:
           - CreateNamespace={{ or .createNamespace true }}
           - Replace={{ or .replace false }}
+          - 'ServerSideApply={{ index . "serverSideApply" | default false }}'
