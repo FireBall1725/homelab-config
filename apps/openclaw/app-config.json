@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-openclaw",
+    "createNamespace": true,
+    "replace": false
+}
