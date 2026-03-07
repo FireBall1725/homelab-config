@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-renovate",
+    "createNamespace": true,
+    "replace": false
+}
