@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-terminus",
+    "createNamespace": true,
+    "replace": false
+}
