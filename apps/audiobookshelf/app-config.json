@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-media",
+    "createNamespace": true,
+    "replace": false
+}
