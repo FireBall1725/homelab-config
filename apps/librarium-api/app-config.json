@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-librarium",
+    "createNamespace": true,
+    "replace": false
+}
