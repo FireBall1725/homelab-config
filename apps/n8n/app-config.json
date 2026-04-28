@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-n8n",
+    "createNamespace": true,
+    "replace": false
+}
