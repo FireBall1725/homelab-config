@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-matter-server",
+    "createNamespace": true,
+    "replace": false
+}
