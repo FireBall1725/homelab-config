@@ -28,11 +28,6 @@ spec:
         automated:
           prune: true
           selfHeal: true
-        managedNamespaceMetadata:
-          labels:
-            {{- range $key, $value := (index . "namespaceLabels" | default dict) }}
-            {{ $key }}: {{ $value }}
-            {{- end }}
         syncOptions:
           - CreateNamespace={{ or .createNamespace true }}
           - Replace={{ or .replace false }}
