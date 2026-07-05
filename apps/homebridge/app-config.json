@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-homebridge",
+    "createNamespace": true,
+    "replace": false
+}
