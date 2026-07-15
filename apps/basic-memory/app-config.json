@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-ai",
+    "createNamespace": true,
+    "replace": false
+}
