@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-pcexpress",
+    "createNamespace": true,
+    "replace": false
+}
