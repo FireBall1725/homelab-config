@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-spoolman",
+    "createNamespace": true,
+    "replace": false
+}
