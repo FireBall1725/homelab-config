@@ -1,0 +1,6 @@
+{
+    "targetRevision": "HEAD",
+    "namespace": "app-ssh-to-go",
+    "createNamespace": true,
+    "replace": false
+}
