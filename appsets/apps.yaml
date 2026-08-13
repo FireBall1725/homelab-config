@@ -6,6 +6,16 @@ metadata:
 spec:
   goTemplate: true
   goTemplateOptions: ["missingkey=error"]
+
+  # Create and update, never delete. Every generated Application carries
+  # resources-finalizer.argocd.argoproj.io and no PVC in homelab-applications
+  # sets helm.sh/resource-policy: keep, so deleting an Application takes its
+  # volumes with it. Removing an app is deliberate: delete its directory, then
+  # kubectl delete application <name> -n core-argocd.
+  syncPolicy:
+    applicationsSync: create-update
+    preserveResourcesOnDeletion: true
+
   generators:
   - git:
       repoURL: https://github.com/FireBall1725/homelab-config.git
